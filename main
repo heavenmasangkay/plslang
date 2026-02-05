@@ -11,3 +11,17 @@ Author author = new Author("Jose Rizal");
 }
 
 }
+
+package librarysystem;
+
+public class Main {
+public static void main(String[] args) {
+
+Author author = new Author("Jose Rizal");  
+    Book book = new Book("Noli Me Tangere", author);  
+    Library library = new Library(book);  
+
+    System.out.println(library.displayLibraryData());  
+}
+
+}
