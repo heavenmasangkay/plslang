@@ -5,7 +5,7 @@ public static void main(String[] args) {
 
 Author author = new Author("Jose Rizal");  
     Book book = new Book("Noli Me Tangere", author);  
-    Library library = new Library(book);  
+    Library library = new Libraryyyy(book);  
 
     System.out.println(library.displayLibraryData());  
 }
